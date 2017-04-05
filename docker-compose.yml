@@ -5,7 +5,7 @@ services:
     ports:
       - "27017:27017"
   api:
-    build: git@github.com/RunnableDemoForYash/api.git
+    build: git@github.com/CodeNow/demo-api.git
     ports:
       - "3000:3000"
     links:
